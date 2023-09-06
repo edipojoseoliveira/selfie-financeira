@@ -1,0 +1,41 @@
+.header {
+    align-items: center;
+    background-color: #6278F7;
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    padding: 1.5em 20px;
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+}
+
+.header .nav {
+    display: flex;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
+
+.link:hover {
+    background: #fff;
+    color: #6278F7;
+}
+
+.btn-sair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 5px 5.5px;
+}
+
+.hidden {
+    display: none !important;
+}
